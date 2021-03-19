@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sofia", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 1000px;
+}
+/* Section */
+p{
+    font-weight: 300;
+    color: #111;
+
+}
+.banner{
+    position: relative;
+    background: url(https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 4px 4px rgb(63, 62, 62);
+}
+.banner .content p{
+    font-size: 1em;
+    color: white;
+    text-shadow: 2px 4px 4px rgb(105, 105, 105);
+}
+.btn{
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #ff0157;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.btn:hover{
+    letter-spacing: 3px;
+}
+/* Section ends here */
+
+/* Header */
+header{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    background: rgb(70, 70, 70,0.2);
+}
+.sticky{
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.sticky .logo{
+    color: black;
+}
+.sticky .navigation li a{
+    color: black;
+}
+header .logo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 15px rgb(255, 255, 255,0.5);
+}
+header .logo span{
+    color:#ff0157 ;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+header .navigation li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 15px rgb(255, 255, 255,0.5);
+    transition: 0.3s;
+}
+header .navigation li a:hover{
+    color: #ff0157;
+}
+/* About us */
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.titleText{
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titleText span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBX{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+/* Menu */
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBX{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text{
+    padding: 15px 0 5px;
+}
+.menu .content .box .text h2{
+    font-weight: 300;
+    text-align: center;
+}
+.expert .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.expert .content .box{
+    width: 250px;
+    margin: 15px;
+}
+.expert .content .box .imgBX{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px solid #ff0157;
+}
+.expert .content .box .imgBX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.expert .content .box .text{
+    padding: 15px 0 5px;
+}
+.expert .content .box .text h2{
+    font-weight: 400;
+    text-align: center;
+}
+/* Testimonial */
+.testimonials{
+    background: url(https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_960_720.jpg);
+    background-size: cover;
+}
+.white .titleText,.white p{
+    color : #fff;
+}
+.testimonials .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.testimonials .content .box{
+    width: 300px;
+    margin: 20px; 
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials .content .box .imgBX{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonials .content .box .imgBX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials .content .box .text{
+    padding: 15px 0 5px;
+    text-align: center;
+}
+.testimonials .content .box .text h2{
+    font-weight: 400;
+    margin-top: 20px;
+    color: #ff0157;
+}
+/* Contact form */
+.contact{
+    background: url(https://ak.picdn.net/shutterstock/videos/1016499466/thumb/1.jpg);
+    background-size: cover;
+    margin-top: 100px;
+}
+.contact .contactForm{
+    background: white;
+    width: 100%;
+    padding: 75px 50px;
+    max-width: 460px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+}
+.contactForm h3{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,.contactForm .inputBox textarea{
+    width: 100%;
+    resize:none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: white;
+    background: #ff0157;
+    display: inline-block;
+    max-width: 100px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+@media (max-width:991px){
+    header,header.sticky{
+        padding: 10px 20px;
+    }
+    header .navigation{
+        display: none;
+    }
+    header .navigation.toggle{
+        width: 100%;
+        height: calc(100%-68px);
+        position: fixed;
+        top: 68px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+    }
+    
+    header .navigation li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    
+    .menuToggle{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background: url(http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png);
+        background-size: 30px;
+        background-repeat: no-repeat; 
+        background-position: center;
+        cursor: pointer;
+    }
+    header .active{
+        background: url(https://icon-library.com/images/close-button-icon-png/close-button-icon-png-21.jpg);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    section{
+        padding: 20px;
+    }
+    .banner .content h2 {
+        font-size: 2em;
+        color: white;
+        text-shadow: 2px 4px 4px rgb(63 62 62);
+    }
+    header .logo{
+        font-size: 1.5em;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col50{
+        position: relative;
+        width: 100%;
+    }
+    .row .col50 .imgBX{
+        height: 300px;
+        margin-top: 20px;
+    }
+    .menu .content .box{
+        margin: 10px;
+    }
+    .menu .content .box .imgBX{
+        height: 260px;
+    }
+    .title p{
+        text-align: center;
+    }
+    .contactForm{
+        padding: 15px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contactForm .inputBox textarea{
+        height: 100px;
+    }
+}
+@media (max-width : 480px){
+    .banner .content h2{
+        font-size: 2.2em;
+        color: black;
+    }
+}
