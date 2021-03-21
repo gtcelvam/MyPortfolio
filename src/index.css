@@ -170,12 +170,12 @@
     color: #174274;
     text-decoration: none;
 }
-.contact{
+.info{
     margin: 20px 0px;
     display: flex;
     justify-content: space-around;
 }
-.contact .contact-details{
+.info .info-details{
     margin: 0 10px;
     padding: 0 5px;
     display: inline;
@@ -266,6 +266,52 @@
     margin: 0 20px;
 }
 /* Skills ends here */
+/* Contact Page */
+.contact-page{
+    width: auto;
+    background: url(https://images.hdqwalls.com/wallpapers/bthumb/anime-city-girl-4k-xl.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+.contact-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.5);
+}
+.contact-main h1{
+    margin: 10px 0;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-details{
+    width: 500px;
+    text-align: center;
+}
+.contact-details p{
+    margin: 30px 0;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+.contact-details p i{
+    padding: 0 10px;
+}
+/* Contact ends here */
 /* Footer */
 .footer{
     position: relative;
@@ -275,5 +321,6 @@
    background-color: #174274;
    color: white;
 }
+
 
 

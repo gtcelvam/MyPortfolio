@@ -26,7 +26,7 @@ let SkillData = [
     },
     {
         id : 5,
-        image : "https://thumbs.dreamstime.com/b/javascript-logo-javascript-logo-white-background-vector-format-available-136765881.jpg",
+        image : "https://i.pinimg.com/originals/50/a6/42/50a6428d99f98e808074cceaf4c755e7.png",
         name : "Javascript",
         des : "lorem ipsum sdkls iewo sdksls "
     },

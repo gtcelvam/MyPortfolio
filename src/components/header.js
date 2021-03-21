@@ -11,7 +11,7 @@ var Header = function(){
                 <ul>
                     <li><a href="/">About Me</a></li>
                     <li><a href="https://github.com/gtcelvam">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>

@@ -31,14 +31,14 @@ class Main extends Component{
                         <h1>Hello</h1><br/>
                         <p>Here's what I'm <span>|</span> What I do</p><br/>
                         <div className="btn-div">
-                            <button className="btn"><a href="">Resume</a></button>
+                            <button className="btn"><a href="https://drive.google.com/file/d/18wD0f_1pvRvv01ihFlghjtoWQKg5OUtW/view?usp=sharing">Resume</a></button>
                             <button className="btn"><a href="https://github.com/gtcelvam">Projects</a></button>
                         </div>
                         <p>Enthusiastic and self-motivated fresher Web designer. Eager to pursue career web development, UX, and visual design skills.</p>
-                        <div className="contact">
-                            <p className="contact-details"><i className="fa fa-map-marker" aria-hidden="true"></i>Chennai</p>
-                            <p className="contact-details"><i className="fa fa-mobile" aria-hidden="true"></i>+919489029654</p>
-                            <p className="contact-details"><i className="fa fa-paper-plane" aria-hidden="true"></i>gtcelan@gmail.com</p>
+                        <div className="info">
+                            <p className="info-details"><i className="fa fa-map-marker" aria-hidden="true"></i>Chennai</p>
+                            <p className="info-details"><i className="fa fa-mobile" aria-hidden="true"></i>+919489029654</p>
+                            <p className="info-details"><i className="fa fa-paper-plane" aria-hidden="true"></i>gtcelan@gmail.com</p>
                         </div>
                         </div>
                     </div>
