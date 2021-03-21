@@ -21,7 +21,7 @@
 }
 .header .logo span{
     position: relative;
-    color: #FF4136;
+    color: #174274;
     animation: anime 1s ease-in-out;
 }
 .navbar ul{
@@ -42,7 +42,7 @@
     transition: 0.3s;
 }
 .navbar ul li a:hover{
-    color: #FF4136;
+    color: #174274;
 }
 @keyframes anime{
     0%{
@@ -75,7 +75,7 @@
 .c-left{
     width: 500px;
     height: 550px;
-    background-color: #fa574e;
+    background-color: #174274;
 }
 .c-right{
     margin-left: -50px;
@@ -87,7 +87,7 @@
     width: 300px;
     height: 500px;
     margin-top: 50px;
-    border-top: 5px solid #fa574e;
+    border-top: 5px solid #174274;
 }
 .c-right .profile .img-box{
     display: flex;
@@ -111,13 +111,13 @@
 }
 .c-right .profile .details hr{
     width: 50px;
-    color: #fa574e ;
+    color: #174274 ;
 }
 .icons{
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #fa574e;
+    background-color: #174274;
     top: 97px;
 }
 .icons ul{
@@ -139,9 +139,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 400px;
     height: 650px;
-    background-color: #fa574e;
+    background-color: #174274;
     color: white;
 }
 .description .details p span{
@@ -161,14 +161,25 @@
     margin-bottom: 20px;
     font-weight: 600;
     padding: 5px 15px;
-    border: 2px solid rgb(139, 0, 0);
+    border: 2px solid #174274;
     border-radius: 5px;
     cursor: pointer;
     background-color: white;
 }
 .btn-div .btn a{
-    color: #fa574e;
+    color: #174274;
     text-decoration: none;
+}
+.contact{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact .contact-details{
+    margin: 0 10px;
+    padding: 0 5px;
+    display: inline;
+    font-size: 15px;
 }
 /* Work Experience */
 .work{
@@ -205,6 +216,8 @@
     padding: 20px 0;
 }
 .work-detail p{
+    margin: 5px 0;
+    padding: 0 5px ;
     font-size: 20px;
 }
 .work .work-detail img{
@@ -221,13 +234,46 @@
     margin: 20px;
     margin-left: 150px;
 }
+.skill-set{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillList .s-container{
+    display: flex;
+    width: 300px;
+    box-shadow: 0 2px 10px black;
+    margin: 10px 5px;
+}
+.s-image{
+    width: 80px;
+    height: 100px;
+}
+.s-image img{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    padding: 5px 0;
+    object-fit:contain;
+}
+.s-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}
+/* Skills ends here */
 /* Footer */
 .footer{
     position: relative;
     display: flex;
    justify-content: center;
    padding: 10px;
-   color: #fa574e;
+   background-color: #174274;
+   color: white;
 }
 
 

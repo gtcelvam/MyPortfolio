@@ -20,9 +20,9 @@ class Main extends Component{
                         </div>
                         <div className="icons">
                             <ul>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/thamarai-selvan-851068164/"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://github.com/gtcelvam"><i class="fab fa-github"></i></a></li>
+                                <li><a href="https://www.facebook.com/thamarai.selvan.3975"><i className="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/thamarai-selvan-851068164/"><i className="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/gtcelvam"><i className="fab fa-github"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -34,7 +34,12 @@ class Main extends Component{
                             <button className="btn"><a href="">Resume</a></button>
                             <button className="btn"><a href="https://github.com/gtcelvam">Projects</a></button>
                         </div>
-                        <p>Enthusiastic and self-motivated fresher Web designer. Eager to pursue career web development, UX, and visual design skills. currently living in Chennai</p>
+                        <p>Enthusiastic and self-motivated fresher Web designer. Eager to pursue career web development, UX, and visual design skills.</p>
+                        <div className="contact">
+                            <p className="contact-details"><i className="fa fa-map-marker" aria-hidden="true"></i>Chennai</p>
+                            <p className="contact-details"><i className="fa fa-mobile" aria-hidden="true"></i>+919489029654</p>
+                            <p className="contact-details"><i className="fa fa-paper-plane" aria-hidden="true"></i>gtcelan@gmail.com</p>
+                        </div>
                         </div>
                     </div>
                 </div>

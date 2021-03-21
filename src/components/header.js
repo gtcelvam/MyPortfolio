@@ -5,7 +5,7 @@ var Header = function(){
     return(
         <div className="header">
             <div className="logo">
-                <h1><span><i class="fas fa-paper-plane"></i></span> Thamarai <span>Selvan</span></h1>
+                <h1><span><i className="fas fa-paper-plane"></i></span> Thamarai <span>Selvan</span></h1>
             </div>
             <div className="navbar">
                 <ul>
