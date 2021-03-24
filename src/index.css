@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Redressed",sans-serif;
+    box-sizing: border-box;
 }
 .header{
     background-color: white;
@@ -13,6 +14,7 @@
     justify-content: space-between;
     height: 50px;
     box-shadow: 0 2px 15px black;
+    max-width: 100%;
 }
 .header .logo{
     margin: 0 10px;
@@ -63,23 +65,17 @@
 
 /* Main */
 .main{
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 100vh;
     background: url(https://lh3.googleusercontent.com/proxy/SjqO8whfs6DT7IRgSyoY9-mbCoAQyNJpTNQG25fXW6Sn0J40iauP_1iiGVVjnR84ajSQ4_iC0QfJ7cBnz4ycY-OOoukwRJO8D77KGgVfWAE3AH_RgrUUUT_zQKCl4B5cxLZiODNkdKV-gpwjYxIlyJoAbY4DD2XdAl3l5UN5J2mtP_zDs-kyXUyIN0xxKH-xbmnWqKt1UlLugHoBWUEeS8w) center center fixed no-repeat;
     background-size: cover;
-}
-
-/* Main Ends here */
-.main{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.c-left{
-    width: 500px;
-    height: 550px;
-    background-color: #174274;
-}
+
+/* Main Ends here */
 .c-right{
     margin-left: -50px;
     background-color: white;
@@ -144,6 +140,7 @@
     align-items: center;
     justify-content: center;
     width: 400px;
+    max-width: 100%;
     height: 650px;
     background-color: #174274;
     color: white;
@@ -195,6 +192,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    z-index: 2;
 }
 .work .work-title{
     position: relative;
@@ -271,12 +269,14 @@
 /* Skills ends here */
 /* Contact Page */
 .contact-page{
-    width: auto;
+    position: relative;
+    max-width: 100%;
     background: url(https://images.hdqwalls.com/wallpapers/bthumb/anime-city-girl-4k-xl.jpg) center center fixed no-repeat;
     background-size: cover;
 }
 .contact-container{
     display: flex;
+    margin: 0;
     width: 100%;
     height: 100vh;
     flex-direction: row;
@@ -288,6 +288,7 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+    max-width: 100%;
     height: 400px;
     color: white;
     background-color: rgba(2, 2, 2, 0.5);
@@ -315,6 +316,56 @@
     padding: 0 10px;
 }
 /* Contact ends here */
+/* Projects starts here */
+.project-container{
+    width: 90%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.project-card{
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+.project-card h1{
+    margin: 10px 0;
+}
+.project-card p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-img-container{
+    width: 100%;
+    height: auto;
+}
+.project-img-container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.project-btn{
+    border: 2px solid #174274;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px 0px;
+    padding: 5px 15px;
+}
+
+.project-btn a{
+    text-decoration: none;
+    color: #174274;
+}
+/* Projects ends here */
 /* Footer */
 .footer{
     position: relative;
@@ -380,7 +431,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 400px;
+        max-width: auto;
         height: 450px;
         background-color: #174274;
         color: white;
@@ -389,7 +440,7 @@
     .work{
         position: relative;
         margin-top: 350px;
-        width: 100%;
+        max-width: 100%;
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -409,14 +460,28 @@
         display: block;
         text-align: center;
     }
+    .contact-page{
+        margin: auto;
+        width: 100vw;
+        max-width: 100%;
+    }
     .contact-main{
-        width: 90%;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0px 10px rgb(87, 0, 114);
+    }
+    .contact-main .contact{
+        position: relative;
     }
     .contact-main h1{
         font-size: 20px;
     }
     .contact-main p{
-        font-size: 20px;
+        justify-content: space-around;
+        display: inline-block;
+        font-size: inherit;
     }
 }
 

@@ -45,7 +45,7 @@ class Header extends Component{
                     </div>
                     <ul style={this.state.toggle ? navbar : null} className="navigation" id="navigation">
                         <li><a href="/">About Me</a></li>
-                        <li><a href="https://github.com/gtcelvam">Projects</a></li>
+                        <li><a href="/project">Projects</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>

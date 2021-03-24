@@ -7,7 +7,6 @@ class Main extends Component{
     render(){
         return(
             <div className="main">
-                <div className="c-left"></div>
                 <div className="c-right">
                     <div className="profile">
                         <div className="img-box">
@@ -31,7 +30,7 @@ class Main extends Component{
                         <h1>Hello</h1><br/>
                         <p>Here's what I'm <span>|</span> What I do</p><br/>
                         <div className="btn-div">
-                            <button className="btn"><a href="https://drive.google.com/file/d/18wD0f_1pvRvv01ihFlghjtoWQKg5OUtW/view?usp=sharing">Resume</a></button>
+                            <button className="btn"><a href="https://drive.google.com/file/d/1vKebQiUfDEElA45_knSq_FwYcPKz4QEq/view?usp=sharing">Resume</a></button>
                             <button className="btn"><a href="https://github.com/gtcelvam">Projects</a></button>
                         </div>
                         <p>Enthusiastic and self-motivated fresher Web designer. Eager to pursue career web development, UX, and visual design skills.</p>

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import {BrowserRouter, Route} from "react-router-dom"
 import App from "./App"
 import Contact from "./contact"
+import Project from "./Project"
 
 
 class Main extends Component{
@@ -15,6 +16,7 @@ class Main extends Component{
             <div>
                 <Route path="/" component={App} exact={true}/>
                 <Route path="/contact" component={Contact}/>
+                <Route path="/project" component={Project}/>
             </div>
             </BrowserRouter>
         )
