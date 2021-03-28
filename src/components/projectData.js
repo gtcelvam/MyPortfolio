@@ -18,21 +18,21 @@ var Projects = [
         img : "./images/Restautant_Site.PNG",
         name : "Restaurant Website",
         des : "Using HTML, CSS and vanilla JS",
-        link : "https://github.com/gtcelvam/Restaurant_Site"
+        link : "https://restaurantwebsite-ts.web.app"
     },
     {
         id : 4,
         img : "./images/College_Site.PNG",
         name : "College Website",
         des : "Using HTML, CSS and vanilla JS",
-        link : "https://github.com/gtcelvam/College"
+        link : "https://collegewebsite-ts.web.app"
     },
     {
         id : 5,
         img : "./images/Hotel_Site.PNG",
         name : "Hotel Website",
         des : "Using HTML, CSS and vanilla JS",
-        link : "https://github.com/gtcelvam/Hotel-Website"
+        link : "https://hotelwebsite-ts.web.app/"
     }
 ]
 
