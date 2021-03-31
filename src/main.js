@@ -30,7 +30,7 @@ class Main extends Component{
                         <h1>Hello</h1><br/>
                         <p>Here's what I'm <span>|</span> What I do</p><br/>
                         <div className="btn-div">
-                            <button className="btn"><a href="https://drive.google.com/file/d/1vKebQiUfDEElA45_knSq_FwYcPKz4QEq/view?usp=sharing">Resume</a></button>
+                            <button className="btn"><a href="https://drive.google.com/file/d/1RARzvVI59IklAjejHX2TxvFD_B486zWF/view?usp=sharing">Resume</a></button>
                             <button className="btn"><a href="/project">Projects</a></button>
                         </div>
                         <p>Enthusiastic and self-motivated fresher Web designer. Eager to pursue career web development, UX, and visual design skills.</p>
