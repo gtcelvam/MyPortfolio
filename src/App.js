@@ -4,6 +4,7 @@ import Header from "./components/header"
 import Main from "./main"
 import Experience from "./Experience"
 import Skills from "./skills"
+import Certificate from "./certificate"
 
 
 
@@ -19,6 +20,7 @@ class App extends Component{
             <Main/>   
             <Experience/>
             <Skills/>
+            <Certificate/>
             <Footer/>
             </div>
         )

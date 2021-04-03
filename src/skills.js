@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import SkillList from "./skillList"
 import SkillData from "./components/skillData"
 import "./index.css"

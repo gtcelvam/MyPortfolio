@@ -8,7 +8,7 @@ var ProjectList = function (props) {
             </div>
             <h1 className="project-title">{props.item.name}</h1>
             <p className="project-des">{props.item.des}</p>
-            <button className="project-btn"><a href={props.item.link}><i class="fas fa-location-arrow"></i> Visit here</a></button>
+            <button className="btn"><a href={props.item.link}><i class="fas fa-location-arrow"></i> Visit here</a></button>
         </div>
     )
 }
