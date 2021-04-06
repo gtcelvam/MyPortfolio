@@ -2,8 +2,8 @@
 let SkillData = [
     {
         id : 1,
-        image : "https://www.pngfind.com/pngs/m/170-1706361_web-development-icon-web-development-logo-png-transparent.png",
-        name : "Web Designing",
+        image : "https://img1.exportersindia.com/product_images/bc-full/dir_158/4714211/web-designing-1494583152-2983000.png",
+        name : "Responsive Web Designing",
         des : "lorem ipsum sdkls iewo sdksls "
     },
     {
@@ -52,6 +52,12 @@ let SkillData = [
         id : 9,
         image : "https://www.excelsiortechnologies.com/img/about/node-js.png",
         name : "Node Js",
+        des : "lorem ipsum sdkls iewo sdksls "
+    },
+    {
+        id : 10,
+        image : "https://www.pngitem.com/pimgs/m/385-3850359_icon-mongodb-logo-hd-png-download.png",
+        name : "MongoDB",
         des : "lorem ipsum sdkls iewo sdksls "
     }
 ]

@@ -491,6 +491,9 @@
         text-align: center;
         font-size: 30px;
     }
+    .Certificate-title{
+        font-size: 30px;
+    }
 }
 @media (max-width : 520px){
     .c-right{

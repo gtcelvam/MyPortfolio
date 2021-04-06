@@ -2,7 +2,7 @@ var certificateData = [
     {
         id : 1,
         name : "React.js Basic",
-        img : "./images/Cutshort - React js.JPG",
+        img : "./images/CutshortReact.jpg",
         C_name : "Cutshort",
         C_img : "https://cdn.cutshort.io/public/images/og-logo.jpg",
         C_id : "40323",
@@ -12,7 +12,7 @@ var certificateData = [
     {
         id : 2,
         name : "Javascript Basic",
-        img : "./images/Cutshort - Js.JPG",
+        img : "./images/CutshortJs.jpg",
         C_name : "Cutshort",
         C_img : "https://cdn.cutshort.io/public/images/og-logo.jpg",
         C_id : "39585",
@@ -51,9 +51,9 @@ var certificateData = [
     {
         id : 6,
         name : "Diploma in Visual Effects",
-        img : "./images/VISUAL_EFFECTS.JPG",
+        img : "./images/VISUALEFFECTS.jpg",
         C_name : "ISYSWAY",
-        C_img : "./images/Isysway.PNG",
+        C_img : "./images/isyslogo.png",
         C_id : "ISYS01538",
         date : "Jan 2019",
         link : "https://drive.google.com/file/d/1s1lZd557RMSWw2N6dMAfK4pLEAn0V_p-/view?usp=sharing"

@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Typical from "react-typical"
 
 class Main extends Component{
     constructor(){
@@ -15,7 +16,7 @@ class Main extends Component{
                         <div className="details">
                             <h1>Thamarai selvan</h1>
                             <hr/>
-                            <p>Web Developer</p>
+                            <p>Web <Typical wrapper="b" loop={Infinity} steps={["Developer",2000,"Designer",1000]} /></p>
                         </div>
                         <div className="icons">
                             <ul>
