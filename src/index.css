@@ -395,15 +395,52 @@
     justify-content: center;
     align-items: center;
 }
+.slide-btn{
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px  #1a1a1a;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+} 
+.arrow i{
+    line-height: 1.8;
+}
+.slide-btn:hover{
+    box-shadow: 0px 0px 12px  #174274;
+}
 .certificate{
+    display: none;
+}
+ .active{
     display: flex;
     flex-direction: column;
     width: 250px;
     padding: 10px;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px black;
+    box-shadow: 2px 2px 10px black;
     margin: 10px 20px;
+}
+.active:hover{
+    box-shadow: 2px 0 10px #174274;
+}
+.slider-anime{
+    animation: slider 0.5s ease-in-out forwards;
+}
+@keyframes slider{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.00);
+    }
 }
 .Certificate-title{
     font-size: 50px;
@@ -412,7 +449,8 @@
 .certificateList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    max-width: 100%;
+    justify-content: space-around;
     align-items: center;
 }
 .certificate-img{

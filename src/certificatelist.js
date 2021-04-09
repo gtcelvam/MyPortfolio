@@ -3,7 +3,8 @@ import "./index.css"
 
 function CertificateList(props) {
     return(
-        <div className="certificate">
+        <div className={props.classvalue}>
+            <div className={props.slider}>
             <div className="certificate-img">
                 <img src={props.item.img} alt={props.item.name}/>
             </div>
@@ -17,8 +18,9 @@ function CertificateList(props) {
                     <p>Creditional ID : {props.item.C_id}</p>
                     <p>Issue Date : {props.item.date}</p>
                 </div>
-            </div>
             <button className="btn"><a href={props.item.link}><i class="fas fa-location-arrow"></i> View</a></button>
+            </div>
+            </div>
         </div>
     )
 }
