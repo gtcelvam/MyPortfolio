@@ -18,7 +18,7 @@ function CertificateList(props) {
                     <p>Creditional ID : {props.item.C_id}</p>
                     <p>Issue Date : {props.item.date}</p>
                 </div>
-            <button className="btn"><a href={props.item.link}><i class="fas fa-location-arrow"></i> View</a></button>
+            <button className="btn"><a href={props.item.link}><i className="fas fa-location-arrow"></i> View</a></button>
             </div>
             </div>
         </div>

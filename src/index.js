@@ -4,6 +4,7 @@ import {BrowserRouter, Route} from "react-router-dom"
 import App from "./App"
 import Contact from "./contact"
 import Project from "./Project"
+import ScrollToTop from "./components/scroll"
 
 
 class Main extends Component{
@@ -18,6 +19,7 @@ class Main extends Component{
                 <Route path="/contact" component={Contact}/>
                 <Route path="/project" component={Project}/>
             </div>
+            <ScrollToTop/>
             </BrowserRouter>
         )
     }

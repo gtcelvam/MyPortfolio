@@ -68,8 +68,6 @@
     width: 100vw;
     max-width: 100%;
     height: 100vh;
-    background: url(https://lh3.googleusercontent.com/proxy/SjqO8whfs6DT7IRgSyoY9-mbCoAQyNJpTNQG25fXW6Sn0J40iauP_1iiGVVjnR84ajSQ4_iC0QfJ7cBnz4ycY-OOoukwRJO8D77KGgVfWAE3AH_RgrUUUT_zQKCl4B5cxLZiODNkdKV-gpwjYxIlyJoAbY4DD2XdAl3l5UN5J2mtP_zDs-kyXUyIN0xxKH-xbmnWqKt1UlLugHoBWUEeS8w) center center fixed no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,11 +76,11 @@
 /* Main Ends here */
 .c-right{
     margin-left: -50px;
-    background-color: white;
     display: flex;
 }
 .c-right .profile{
     position: relative;
+    background-color: white;
     width: 300px;
     height: 500px;
     margin-top: 50px;
@@ -386,10 +384,25 @@
     text-decoration: none;
     color: #174274;
 }
+#btn-projects{
+    animation: btnShadow 1s alternate ease-in-out infinite;
+}
+@keyframes btnShadow{
+    from{
+        box-shadow: none;
+    }
+    to{
+        box-shadow: 0 0 10px rgba(181, 203, 252, 0.8);
+    }
+}
+
 /* Projects ends here */
 
 /* Certificate starts here */
 .certificate-container{
+    margin: 50px 0px;
+    background: url(https://c4.wallpaperflare.com/wallpaper/227/256/2/blue-white-material-design-minimal-art-wallpaper-thumb.jpg) fixed center center no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,12 +420,15 @@
     cursor: pointer;
     display: flex;
     text-align: center;
+    transition:  0.4s ease-in-out;
 } 
 .arrow i{
     line-height: 1.8;
+    text-align: center;
 }
 .slide-btn:hover{
-    box-shadow: 0px 0px 12px  #174274;
+    box-shadow: 0px 0px 12px  white;
+    color: white;
 }
 .certificate{
     display: none;
@@ -420,6 +436,7 @@
  .active{
     display: flex;
     flex-direction: column;
+    background-color: white;
     width: 250px;
     padding: 10px;
     justify-content: center;
@@ -431,7 +448,7 @@
     box-shadow: 2px 0 10px #174274;
 }
 .slider-anime{
-    animation: slider 0.5s ease-in-out forwards;
+    animation: slider 0.8s ease-in-out forwards;
 }
 @keyframes slider{
     0%{
@@ -444,7 +461,7 @@
 }
 .Certificate-title{
     font-size: 50px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .certificateList{
     display: flex;
@@ -498,6 +515,42 @@
    padding: 10px;
    background-color: #174274;
    color: white;
+}
+/* Scroll to Top */
+.scroll-to-top{
+    position: fixed;
+    bottom: 12px;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #174274;
+    z-index: 3;
+    cursor: pointer;
+    animation: bgEffect 0.5s alternate ease-in-out infinite;
+}
+.scroll-to-top .icon{
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 5px;
+    animation: scrollToTop 0.5s alternate ease-in-out infinite;
+}
+@keyframes bgEffect{
+    from{
+       box-shadow:none ;
+    }
+    to{
+        box-shadow: 0 0 10px #174274 ;
+    }
+}
+@keyframes scrollToTop {
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
 }
 /* Media Queries */
 @media (max-width : 991px){
