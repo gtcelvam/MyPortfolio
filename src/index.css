@@ -88,12 +88,12 @@
     border-left: 1px solid #174274;
     box-shadow: -2px -2px 8px #16273a;
 }
-.c-right .profile .img-box{
+.img-box{
     display: flex;
     justify-content: center;
     height: 350px;
 }
-.c-right .profile .img-box img{
+.img-box img{
     margin-top : 50px;
     position: relative;
     width: 150px;
@@ -392,7 +392,7 @@
         box-shadow: none;
     }
     to{
-        box-shadow: 0 0 10px rgba(181, 203, 252, 0.8);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
 }
 
