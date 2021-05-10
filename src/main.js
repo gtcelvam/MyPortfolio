@@ -31,7 +31,7 @@ class Main extends Component{
                         <h1>Hello</h1><br/>
                         <p>Here's what I'm <span>|</span> What I do</p><br/>
                         <div className="btn-div">
-                            <button className="btn"><a href="https://drive.google.com/file/d/1668RWTLMKr6RP3-kDzMgPFdjD8_F6ESI/view?usp=sharing">Resume</a></button>
+                            <button className="btn"><a href="https://drive.google.com/file/d/1PSN8HpCgeWXysOSqxOfTIhpb4R04g5G2/view?usp=sharing">Resume</a></button>
                             <button className="btn" id="btn-projects"><a href="/project">Projects</a></button>
                         </div>
                         <p>Enthusiastic and self-motivated fresher Web Developer.Eager to pursue career on web development with some relevent skills on Full stack development.</p>

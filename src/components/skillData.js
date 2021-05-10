@@ -50,12 +50,18 @@ let SkillData = [
     },
     {
         id : 9,
+        image : "http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
+        name : "Redux",
+        des : "lorem ipsum sdkls iewo sdksls "
+    },
+    {
+        id : 10,
         image : "https://www.excelsiortechnologies.com/img/about/node-js.png",
         name : "Node Js",
         des : "lorem ipsum sdkls iewo sdksls "
     },
     {
-        id : 10,
+        id : 11,
         image : "https://www.pngitem.com/pimgs/m/385-3850359_icon-mongodb-logo-hd-png-download.png",
         name : "MongoDB",
         des : "lorem ipsum sdkls iewo sdksls "
