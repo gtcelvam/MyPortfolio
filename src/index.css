@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -72,29 +73,45 @@
     align-items: center;
     justify-content: center;
 }
-
-/* Main Ends here */
-.c-right{
-    margin-left: -50px;
+#bg-image{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.glass-bg{
+    width:80%;
+    height: 80%;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 2px 10px blue;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.c-right .profile{
-    position: relative;
-    background-color: white;
-    width: 300px;
-    height: 500px;
-    margin-top: 50px;
-    border-top: 1px solid #174274;
-    border-left: 1px solid #174274;
-    box-shadow: -2px -2px 8px #16273a;
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
 }
+.profile, .description{
+    width:50%
+}
+.details{
+    font-size: 4vh;
+    text-align: center;
+}
+/* Main Ends here */
 .img-box{
     display: flex;
     justify-content: center;
-    height: 350px;
 }
 .img-box img{
-    margin-top : 50px;
     position: relative;
     width: 150px;
     height: 150px;
@@ -116,8 +133,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #174274;
-    top: 97px;
 }
 .icons ul{
     list-style-type: none;
@@ -131,7 +146,7 @@
     font-size: 20px;
     text-decoration: none;
     padding: 0px 20px;
-    color: white;
+    color: black;
 }
 
 .c-right .description{
@@ -152,10 +167,8 @@
 }
 .description .details{
     position: relative;
-    top: -15%;
-    width: 90%;
     text-align: center;
-    color: white;
+    color: black;
 }
 .details .btn-div .btn {
     margin: 5px 10px;

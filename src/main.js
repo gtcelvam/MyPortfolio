@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Typical from "react-typical"
 
+
 class Main extends Component{
     constructor(){
         super()
@@ -8,25 +9,14 @@ class Main extends Component{
     render(){
         return(
             <div className="main">
-                <div className="c-right">
+                <img id="bg-image" src='./images/Portfolio_bg.jpg' alt="bg" />
+                <div className="glass-bg">
                     <div className="profile">
-                        <div className="img-box">
-                            <img src="./images/gts.JPG" id="img" alt="myimg"/>
-                        </div>
                         <div className="details">
                             <h1>Thamarai selvan</h1>
                             <hr/>
                             <p>Web <Typical wrapper="b" loop={Infinity} steps={["Developer",2000,"Designer",1000]} /></p>
                         </div>
-                        <div className="icons">
-                            <ul>
-                                <li><a href="http://api.whatsapp.com/send?phone=+919698229654"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/thamarai-selvan-851068164/"><i className="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://github.com/gtcelvam"><i className="fab fa-github"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="description">
                         <div className="details">
                         <h1>Hello</h1><br/>
                         <p>Here's what I'm <span>|</span> What I do</p><br/>
@@ -40,6 +30,18 @@ class Main extends Component{
                             <p className="info-details"><i className="fa fa-mobile" aria-hidden="true"></i>+919489029654</p>
                             <p className="info-details"><i className="fa fa-paper-plane" aria-hidden="true"></i>gtcelan@gmail.com</p>
                         </div>
+                        </div>
+                    </div>
+                    <div className="description">
+                         <div className="img-box">
+                            <img src="./images/gts.JPG" id="img" alt="myimg"/>
+                        </div>
+                        <div className="icons">
+                            <ul>
+                                <li><a href="http://api.whatsapp.com/send?phone=+919698229654"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/thamarai-selvan-851068164/"><i className="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/gtcelvam"><i className="fab fa-github"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
