@@ -1,6 +1,5 @@
 import React from "react"
 import "./index.css"
-
 var SkillList = function (props) {
     return (
         <div className="skillList">
@@ -10,7 +9,7 @@ var SkillList = function (props) {
                 </div>
                 <div className="s-description">
                     <h2>{props.item.name}</h2>
-                    <p>{props.item.des}</p>
+                    <p>{props.item.name}</p>
                 </div>
             </div>
         </div>

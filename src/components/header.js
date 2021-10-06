@@ -23,13 +23,13 @@ class Header extends Component{
         }
         var navbar = {
             width : "100%",
-            height : "40%",
+            height : "auto",
             position : "absolute",
-            top : "5%",
+            top : "100%",
             left : "0",
             display : "flex",
             flexDirection : "column",
-            backgroundColor : "white",
+            backgroundColor: "rgba(0,0,0,0.2)",
             color : "black",
             zIndex : "1",
             textAlign : "right"

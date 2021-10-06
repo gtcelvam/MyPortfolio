@@ -1,12 +1,15 @@
 import React from "react"
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import ProjectData from "../src/components/projectData"
 import ProjectList from "./ProjectList"
 import Header from "../src/components/header"
 
+
+
 var Project = function() {
-    var Projects = ProjectData.map((item)=>{
+    var Projects = ProjectData.map((item,index)=>{
         return (<div>
-            <ProjectList key={item.id} item={item}/>
+            <ProjectList key={item.id} item={item} order={index % 2 != 0 ? 'order' : null}/>
         </div>)
     })
     return(
