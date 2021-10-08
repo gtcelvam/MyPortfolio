@@ -8,24 +8,24 @@ var Projects = [
     },
     {
         id : 2,
+        img : "./images/vaccine.JPG",
+        name : "Vaccine Center Details",
+        des : ['Rest API from API SETU', 'React JS','Javascript','Bootstrap','CSS'],
+        link : "https://vaccine-center.web.app/"
+    },
+    {
+        id : 3,
         img : "./images/Billing.PNG",
         name : "Billing and Invoice",
         des : ['React js','React Hooks','Javascript','CSS','HTML'],
         link : "https://billing-and-invoice.web.app/"
     },
     {
-        id : 3,
+        id : 4,
         img : "./images/Restautant_Site.PNG",
         name : "Restaurant Website",
         des : ['Javascript','CSS','HTML'],
         link : "https://restaurantwebsite-ts.web.app"
-    },
-    {
-        id : 4,
-        img : "./images/Photo_Search.PNG",
-        name : "Photo Search",
-        des : ['Rest API from Unsplash', 'Node js','EJS'],
-        link : "https://github.com/gtcelvam/Simple-Website_Node.js"
     },
     {
         id : 5,
