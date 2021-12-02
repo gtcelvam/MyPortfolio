@@ -50,8 +50,8 @@ let SkillData = [
     },
     {
         id : 9,
-        image : "http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
-        name : "Redux",
+        image : "https://www.freepnglogos.com/uploads/php-logo-png/php-logo-php-elephant-logo-vectors-download-5.png",
+        name : "PHP",
         des : "lorem ipsum sdkls iewo sdksls "
     },
     {

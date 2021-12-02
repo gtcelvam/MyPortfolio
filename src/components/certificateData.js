@@ -11,6 +11,36 @@ var certificateData = [
     },
     {
         id : 2,
+        name : "JavaScript Programming (Advanced)",
+        img : "./images/studysection_php.JPG",
+        C_name : "Study Section",
+        C_img : "https://i.pinimg.com/280x280_RS/6f/a2/1d/6fa21d8dfea2566377deea920453116e.jpg",
+        C_id : "331763",
+        date : "Apr 2021",
+        link : "https://www.studysection.com/verify-certificate-authenticity"
+    },
+    {
+        id : 3,
+        name : "PHP Programming (Foundation)",
+        img : "./images/studysection_jsadv.JPG",
+        C_name : "Study Section",
+        C_img : "https://i.pinimg.com/280x280_RS/6f/a2/1d/6fa21d8dfea2566377deea920453116e.jpg",
+        C_id : "445884",
+        date : "October 2021",
+        link : "https://www.studysection.com/verify-certificate-authenticity"
+    },
+    {
+        id : 4,
+        name : "jQuery Basic",
+        img : "./images/CutshortjQuery.JPG",
+        C_name : "Cutshort",
+        C_img : "https://cdn.cutshort.io/public/images/og-logo.jpg",
+        C_id : "57718",
+        date : "October 2021",
+        link : "https://cutshort.io/certificate/57718"
+    },
+    {
+        id : 5,
         name : "Javascript Basic",
         img : "./images/CutshortJs.jpg",
         C_name : "Cutshort",
@@ -20,7 +50,7 @@ var certificateData = [
         link : "https://cutshort.io/certificate/39585"
     },
     {
-        id : 3,
+        id : 6,
         name : "Javascript Foundation",
         img : "./images/Js - Foundation.PNG",
         C_name : "Study Section",
@@ -30,7 +60,7 @@ var certificateData = [
         link : "https://www.studysection.com/verify-certificate-authenticity"
     },
     {
-        id : 4,
+        id : 7,
         name : "CSS Foundation",
         img : "./images/CSS_Foundation.PNG",
         C_name : "Study Section",
@@ -40,7 +70,7 @@ var certificateData = [
         link : "https://www.studysection.com/verify-certificate-authenticity"
     },
     {
-        id : 5,
+        id : 8,
         name : "Responsive Design",
         img : "./images/Responsive_Design.PNG",
         C_name : "Freecodecamp",
@@ -49,7 +79,7 @@ var certificateData = [
         link : "https://www.freecodecamp.org/certification/fcc189de42c-8967-44eb-afc6-938c4233a34b/responsive-web-design"
     },
     {
-        id : 6,
+        id : 9,
         name : "Diploma in Visual Effects",
         img : "./images/VISUALEFFECTS.jpg",
         C_name : "ISYSWAY",

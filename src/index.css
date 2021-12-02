@@ -361,7 +361,7 @@ button a{
 .skillList .s-container{
     display: flex;
     width: 300px;
-    box-shadow: 0 2px 10px black;
+    box-shadow: 0 2px 10px #999999;
     margin: 10px 5px;
 }
 .s-image{
@@ -382,55 +382,7 @@ button a{
     margin: 0 20px;
 }
 /* Skills ends here */
-/* Contact Page */
-.contact-page{
-    position: relative;
-    max-width: 100%;
-    background: url(https://images.hdqwalls.com/wallpapers/bthumb/anime-city-girl-4k-xl.jpg) center center fixed no-repeat;
-    background-size: cover;
-}
-.contact-container{
-    display: flex;
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    flex-direction: row;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
-.contact-main{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    max-width: 100%;
-    height: 400px;
-    color: white;
-    background-color: rgba(2, 2, 2, 0.5);
-}
-.contact-main h1{
-    margin: 10px 0;
-    text-align: center;
-}
-.contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contact-details{
-    width: 500px;
-    text-align: center;
-}
-.contact-details p{
-    margin: 30px 0;
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 25px;
-}
-.contact-details p i{
-    padding: 0 10px;
-}
-/* Contact ends here */
+
 /* Projects starts here */
 .project-container{
     margin: auto;
@@ -452,6 +404,7 @@ button a{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px grey;
+    overflow: hidden;
 }
 .project-card h1{
     margin: 10px 0;
@@ -462,8 +415,10 @@ button a{
     text-align: center;
 }
 .project-img-container{
-    flex: 2;
-    height: auto;
+    flex: 2 1;
+    width: 100%;
+    height: 40vh;
+    position: relative;
 }
 .order{
     order:2;
@@ -475,11 +430,40 @@ button a{
     align-items: center;
 }
 .project-img-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: auto;
     object-fit: cover;
     box-shadow: 1px 2px 10px grey;
+    opacity: 0;
 }
+/* Slider Container Ends Here */
+.fade {
+    animation: remove 2s ease-in;
+}
+.show {
+    animation: add 2s ease-in-out;
+}
+
+@keyframes add {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+@keyframes remove {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  /* Slider Container Ends Here */
 .project-des{
     display: flex;
     flex-wrap: wrap;
@@ -743,6 +727,7 @@ button a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-height: 50vh;
         box-shadow: 1px 2px 10px grey;
     }
     .project-desc-container h1{
@@ -755,7 +740,9 @@ button a{
     }
     .project-img-container{
         flex: 2;
-        height: auto;
+        height: 40vh;
+        min-height: 100px;
+        overflow: hidden;
     }
     .order{
         order:unset;
@@ -769,7 +756,8 @@ button a{
     .project-img-container img{
         width: 100%;
         height: auto;
-        object-fit: cover;
+        min-height:150px;
+        object-fit: inherit;
         box-shadow: none;
     }
     .btn{
@@ -857,37 +845,6 @@ button a{
         position: relative;
         display: block;
         text-align: center;
-    }
-    .contact-page{
-        width: 100vw;
-        position: relative;
-        margin : auto;
-    }
-    .contact-main{
-        width: 100vw;
-        max-width: 90%;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0px 10px rgb(87, 0, 114);
-    }
-    .contact-main .contact{
-        width: 100%;
-        max-width: 100%;
-        position: relative;
-    }
-    .contact-main h1{
-        font-size: 20px;
-    }
-    .contact-main p{
-        padding: 0 5px;
-        position: relative;
-        justify-content: space-around;
-        display: inline-block;
-        font-size: 15px;
-    }
-    .contact-main p:nth-child(odd){
-        font-weight: 900;
-        font-size: 20px;
     }
     .project-des{
        flex-direction: column;

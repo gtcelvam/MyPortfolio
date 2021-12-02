@@ -47,8 +47,8 @@ class Main extends Component{
                             </div>                                                           
                         </div>
                         <div className="btn-div">
-                                <button className="resume-btn"><a href="https://drive.google.com/file/d/1PSN8HpCgeWXysOSqxOfTIhpb4R04g5G2/view?usp=sharing"><i class="fas fa-id-badge"></i> Resume</a></button>
-                                <button className="project-btn" id="btn-projects"><a href="/project"><i class="fas fa-chalkboard-teacher"></i> Projects</a></button>
+                            <button className="resume-btn ext-btn"><a href="https://drive.google.com/file/d/1cm2JfkfcRMrxXGB9n4zydjtK86Deuq2C/view?usp=sharing"><i class="fas fa-id-badge"></i> Resume</a></button>
+                            <button className="project-btn ext-btn" id="btn-projects"><a href="./project"><i class="fas fa-chalkboard-teacher"></i> Projects</a></button>
                         </div>
                     </div>
                 </div>
