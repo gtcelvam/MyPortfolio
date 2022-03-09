@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import certificateData from "./components/certificateData"
-import CertificateList from "./certificatelist"
-import "./index.css"
+import certificateData from "../data/certificateData"
+import CertificateList from "./list/certificatelist"
+import "../css/certificate.css"
 
 function Certificate() {
     const [current, setCurrent] = useState(0);

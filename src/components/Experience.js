@@ -1,5 +1,5 @@
-import react, { Component } from "react"
-import "./index.css"
+import { Component } from "react"
+import "../css/experience.css"
 
 class Experience extends Component{
     constructor(){

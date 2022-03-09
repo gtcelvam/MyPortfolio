@@ -1,9 +1,10 @@
-import React,{useEffect} from "react"
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-import ProjectData from "../src/components/projectData"
-import ProjectList from "./ProjectList"
-import Header from "../src/components/header"
-import {Run} from './effect/slider'
+import React,{useEffect} from "react";
+import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
+import ProjectData from "./data/projectData";
+import ProjectList from "./component/ProjectList";
+import Header from "../../components/header";
+import {Run} from './effect/slider';
+import './css/project.css';
 
 
 
@@ -34,7 +35,7 @@ var Project = function() {
     return(
         <div>
             <Header/>
-            <h2 style={{margin : "20px 0px",textAlign : "center"}}>My Sample projects</h2>
+            <h2 style={{margin : "20px 0px",textAlign : "center"}} className="project-head">My Sample projects</h2>
             <div className="project-container">
             {Projects}
             </div>

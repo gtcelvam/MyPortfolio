@@ -1,0 +1,109 @@
+/* Certificate starts here */
+.certificate-container{
+    margin-top: 50px;
+    background: url(https://c4.wallpaperflare.com/wallpaper/227/256/2/blue-white-material-design-minimal-art-wallpaper-thumb.jpg) fixed center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-btn{
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px  #1a1a1a;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    transition:  0.4s ease-in-out;
+} 
+.arrow i{
+    line-height: 1.8;
+    text-align: center;
+}
+.slide-btn:hover{
+    box-shadow: 0px 0px 12px  white;
+    color: white;
+}
+.certificate{
+    display: none;
+}
+ .active{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px 20px;
+}
+.active:hover{
+    box-shadow: 2px 0 10px #174274;
+}
+.slider-anime{
+    animation: slider 0.8s ease-in-out forwards;
+}
+@keyframes slider{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.00);
+    }
+}
+.Certificate-title{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.certificateList{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.certificate-img{
+    width: 100%;
+    height: 200px;
+}
+.certificate-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.certificate-provider{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.certificate-provider img{
+    width: 30px;
+    height: auto;
+    object-fit:cover;
+}
+.certificate-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certificate-data h3{
+    text-align: center;
+}
+.certificate-id{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Certificate Endss here */

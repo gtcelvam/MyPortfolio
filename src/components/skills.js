@@ -1,7 +1,7 @@
 import React from "react";
-import SkillList from "./skillList";
-import SkillData from "./components/skillData";
-import "./index.css"
+import SkillList from "./list/skillList";
+import SkillData from "../data/skillData";
+import "../css/skill.css"
 
  function Skills(){
         var skills = SkillData.map(item =>{

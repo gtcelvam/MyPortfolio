@@ -1,12 +1,12 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import "../css/contact.css"
+import Header from "../../components/header"
+import Footer from "../../components/footer"
+import "./css/contact.css"
 import Styled from "styled-components";
 import emailJs from 'emailjs-com';
 
 var Head = Styled.h1`
-    font-size:2vw;
+    font-size: calc(10px + 1.5vw);
     margin-bottom:1%;
     color:white;
 `;
@@ -17,6 +17,7 @@ var FormContainer = Styled.form`
     align-items:center;
     justify-content:space-around;
     width:100%;
+    height:100%;
 `;
 
 var LabelContainer = Styled.div`
@@ -27,7 +28,7 @@ var LabelContainer = Styled.div`
 `;
 
 var Label = Styled.label`
-    font-size:1.5rem;
+    font-size:calc(10px + 1vw);
 `
 
 
@@ -70,6 +71,7 @@ var Button = Styled.button`
     color:white;
     border:none;
     cursor:pointer;
+    border-radius:5px;
 `;
 
 var Contact = function(){

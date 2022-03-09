@@ -1,0 +1,57 @@
+.header{
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+.header .logo{
+    margin: 0 10px;
+    line-height: 50px;
+    font-size: 15px;
+}
+.header .logo span{
+    position: relative;
+    color: var(--theme-color);
+    animation: anime 1s ease-in-out;
+}
+.menuToggle{
+    display: none;
+}
+.navbar ul{
+    display: inline;
+    list-style-type: none;
+
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    margin: 0 15px;
+    padding: 0 5px;
+    line-height: 50px;
+    color: var(--menu-color);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: #174274;
+}
+@keyframes anime{
+    0%{
+        top :-50px
+    }
+    50%{
+        top : 10px
+    }
+    100%{
+        top : 0px
+    }
+}
+/* Nabar ends here */
+/* Header ends here */

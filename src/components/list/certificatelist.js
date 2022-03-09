@@ -1,5 +1,5 @@
 import React from "react"
-import "./index.css"
+import "../../css/certificate.css"
 
 function CertificateList(props) {
     return(

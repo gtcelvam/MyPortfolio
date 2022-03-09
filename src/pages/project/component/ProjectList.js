@@ -16,7 +16,7 @@ var ProjectList = function (props) {
             <div className="project-desc-container">
                 <h1 className="project-title">{props.item.name}</h1>
                 <ul className="project-des">{desc}</ul>
-                <button className="btn"><a target='_blank' href={props.item.link}><i className="fas fa-location-arrow"></i> Visit here</a></button>
+                <button className="btn"><a target='_blank' href={props.item.link}><i className="fas fa-external-link-alt"></i> Visit here</a></button>
             </div>
         </div>
     )

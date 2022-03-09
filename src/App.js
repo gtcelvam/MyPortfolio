@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import Footer from "./components/footer"
 import Header from "./components/header"
-import Main from "./main"
-import Experience from "./Experience"
-import Skills from "./skills"
-import Certificate from "./certificate"
+import Main from "./components/main"
+import Experience from "./components/Experience"
+import Skills from "./components/skills"
+import Certificate from "./components/certificate"
 
 
 

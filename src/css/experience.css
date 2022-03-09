@@ -1,0 +1,47 @@
+/* Work Experience */
+.work{
+    width: 100%;
+    height: 500px;
+    background: url(https://cdn.pixabay.com/photo/2021/01/21/15/46/laptop-5937691_960_720.jpg) center center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+.work .work-title{
+    position: relative;
+    font-size: 30px;
+}
+.work .work-detail{
+    position: relative;
+    width: 40%;
+}
+.work .work-detail h1{
+    position: absolute;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 0;
+    line-height: 0px;
+    font-size: 50px;
+}
+.work-detail h2{
+    padding-top: 20px;
+}
+.work .work-detail h3{
+    padding: 20px 0;
+}
+.work-detail p{
+    margin: 5px 0;
+    padding: 0 5px ;
+    font-size: 20px;
+}
+.work .work-detail img{
+    position: relative;
+    margin-top: 4px;
+    width: 44px;
+    height: 30px;
+
+}
+/* Experience Ends here */

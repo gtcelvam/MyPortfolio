@@ -1,0 +1,20 @@
+/* Footer */
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #174274;
+    color: white;
+}
+@media (max-width:520px){
+    .footer{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer p:nth-child(1),.footer p:nth-child(3){
+        display: none;
+    }
+}
+/* Footer Ends Here */
