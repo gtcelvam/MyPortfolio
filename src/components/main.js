@@ -40,15 +40,15 @@ class Main extends Component{
                             </div>
                             <div className="icons">
                                 <ul>
-                                    <li><a href="http://api.whatsapp.com/send?phone=+919698229654" data-text="Whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="http://api.whatsapp.com/send?phone=+919698229654" data-text="Whatsapp"><i className="fab fa-whatsapp"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/thamarai-selvan-851068164/" data-text="linkedIn"><i className="fab fa-linkedin"></i></a></li>
                                     <li><a href="https://github.com/gtcelvam" data-text="Github"><i className="fab fa-github"></i></a></li>
                                 </ul>
                             </div>                                                           
                         </div>
                         <div className="btn-div">
-                            <button className="resume-btn ext-btn"><a href="https://drive.google.com/file/d/1cm2JfkfcRMrxXGB9n4zydjtK86Deuq2C/view?usp=sharing"><i class="fas fa-id-badge"></i> Resume</a></button>
-                            <button className="project-btn ext-btn" id="btn-projects"><a href="./project"><i class="fas fa-chalkboard-teacher"></i> Projects</a></button>
+                            <button className="resume-btn ext-btn"><a href="https://drive.google.com/file/d/1cm2JfkfcRMrxXGB9n4zydjtK86Deuq2C/view?usp=sharing"><i className="fas fa-id-badge"></i> Resume</a></button>
+                            <button className="project-btn ext-btn" id="btn-projects"><a href="./project"><i className="fas fa-chalkboard-teacher"></i> Projects</a></button>
                         </div>
                     </div>
                 </div>

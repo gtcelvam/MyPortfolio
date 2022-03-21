@@ -1,4 +1,11 @@
 /* Skills */
+.skillList{
+    opacity: 0;
+    transition: opacity 450ms ease-in-out;
+}
+.skillList-fade-in{
+    opacity: 1;
+}
 .skills-head{
     font-size: 50px;
     margin: 20px;
@@ -21,6 +28,24 @@
     margin: 10px 5px;
     border-radius: 0.5rem;
 }
+/* Loading */
+.skill-load{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.skill-img-load{
+    width: 40%;
+}
+.skill-load-head{
+    text-align: center;
+    color: #999999;
+    font-family: Jost, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    bottom: 10%;
+}
+/* Loading Ends Here */
 .s-image{
     width: 80px;
     height: 100px;
@@ -41,13 +66,22 @@
 .s-title{
     margin:1% 0;
     font-size: 1rem;
+    font-family: Jost, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .s-title::before{
     content: '';
     display: inline-block;
     width: 0.6rem;
     height: 0.6rem;
-    background-color:#F1EE00;
+    background: linear-gradient(42deg, rgba(0,86,138,1) 20%, rgba(49,149,255,1) 100%);
     border-radius: 50%;
+}
+@media (max-width:520px){
+    .skillList .s-container{
+        width: 80vw;
+    }
+    .skill-img-load{
+        width: 90%;
+    }
 }
 /* Skills ends here */

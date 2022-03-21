@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React,{useEffect,lazy,Suspense} from "react";
 import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
 import ProjectData from "./data/projectData";
 import ProjectList from "./component/ProjectList";
@@ -15,22 +15,24 @@ var Project = function() {
             var slider = item.children;
             var len = item.children.length;
             var i = 0;
-            if (len > 1) {
-                setInterval(() => {
-                    var int = i >= len ? (i = 0) : i;
-                    var x = i === 0 ? (x = len - 1) : (x = i - 1);
-                    Run(int,x,len,slider)
-                    i++;
-                }, 2000);
-            }else{
-                slider[0].style.opacity = 1;
+            if(slider.length > 0){
+                if (len > 1) {
+                    setInterval(() => {
+                        var int = i >= len ? (i = 0) : i;
+                        var x = i === 0 ? (x = len - 1) : (x = i - 1);
+                        Run(int,x,len,slider)
+                        i++;
+                    }, 2000);
+                }else{
+                   slider[0].style.opacity = 1;
+                }
             }
         })
     }, [])
     var Projects = ProjectData.map((item,index)=>{
-        return (<div>
+        return (
             <ProjectList key={item.id} item={item} order={index % 2 != 0 ? 'order' : null}/>
-        </div>);
+            );
     })
     return(
         <div>

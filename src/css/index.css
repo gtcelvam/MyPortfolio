@@ -400,27 +400,6 @@ button a{
         color: white;
         z-index: 2;
     }
-    .work{
-        position: relative;
-        max-width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .work .work-title{
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .work .work-detail{
-        width: 90%;
-        text-align: center;
-    }
-    .work .work-detail h1{
-        position: relative;
-        display: block;
-        text-align: center;
-    }
+    
 }
 

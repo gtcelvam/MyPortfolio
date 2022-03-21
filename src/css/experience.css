@@ -9,14 +9,28 @@
     justify-content: space-around;
     align-items: center;
     z-index: 2;
+    overflow-x: hidden;
 }
 .work .work-title{
     position: relative;
     font-size: 30px;
+    transform: translateX(-10%);
+    opacity: 0;
+    transition: opacity 450ms ease-in-out,
+                transform 500ms ease-in-out;
 }
 .work .work-detail{
     position: relative;
     width: 40%;
+    transform: translateX(5%);
+    opacity: 0;
+    transition: opacity 450ms ease-in-out,
+                transform 500ms ease-in-out;
+}
+.work .work-title-fade-in,
+.work .work-detail-fade-in{
+    opacity: 1;
+    transform: translateX(0);
 }
 .work .work-detail h1{
     position: absolute;
@@ -43,5 +57,31 @@
     width: 44px;
     height: 30px;
 
+}
+@media (max-width : 520px){
+    .work{
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .work .work-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+        transform: translateX(0);
+    }
+    .work .work-detail{
+        width: 90%;
+        text-align: center;
+        transform: translateX(0);
+    }
+    .work .work-detail h1{
+        position: relative;
+        display: block;
+        text-align: center;
+    }
 }
 /* Experience Ends here */

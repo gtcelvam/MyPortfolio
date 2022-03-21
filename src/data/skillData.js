@@ -71,7 +71,7 @@ let SkillData = [
         stars:3.5
     },
     {
-        id : 10,
+        id : 11,
         image : "https://yt3.ggpht.com/ytc/AKedOLRpJVGUTtjVE_mf-DouS6NeZVEDVBqdjc1diCIQEg=s900-c-k-c0x00ffffff-no-rj",
         name : "MySQL",
         des : "lorem ipsum sdkls iewo sdksls ",

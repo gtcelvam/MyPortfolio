@@ -24,11 +24,12 @@ var LabelContainer = Styled.div`
     width:100%;
     display:flex;
     flex-direction:column;
-    padding:1% 5%
+    padding:1% 3%
 `;
 
 var Label = Styled.label`
     font-size:calc(10px + 1vw);
+    font-family: Jost, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 `
 
 
@@ -67,7 +68,8 @@ var Button = Styled.button`
     padding:2% 0%;
     font-size:1.2rem;
     font-weight:600;
-    background-color:#009EE2;
+    font-family: Jost, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#3c75ac;
     color:white;
     border:none;
     cursor:pointer;
@@ -90,8 +92,8 @@ var Contact = function(){
         <div className='contact-page'>
             <Header/>
             <div className="contact-container">
-                <Head>You Can Send Me Your Thoughts Here</Head>
                 <div className="contact-main">
+                    <Head>You Can Send Me Your Thoughts Here</Head>
                     <FormContainer onSubmit={handleSubmit}>
                         <LabelContainer>
                         <Label>Enter Your Name Here</Label>
